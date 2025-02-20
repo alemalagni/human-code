@@ -23,43 +23,43 @@
     - ALTRIMENTI controlla la parte opposta
     - Controllare nuovamente la lista per evitare di dimenticarsi qualcosa
 
-SE le corsie sono finite AND tutti gli oggetti della lista sono stati presi e messi nel carrelo , uscire dal ciclo
-SE il totale dei prodotti è superiore ai contanti che possediamo AND non possiamo pagare con cart
--   Prendere l'oggetto più costoso
--   Tornare nella corsia da dove lo abbiamo preso
--   Riposizionare dove si trovava
--   Ripetere se la condizione iniziale è ancora vera
-ALTRIMENTI esci dal ciclo
+- SE le corsie sono finite AND tutti gli oggetti della lista sono stati presi e messi nel carrelo , uscire dal ciclo
+- SE il totale dei prodotti è superiore ai contanti che possediamo AND non possiamo pagare con cart
+    - Prendere l'oggetto più costoso
+    - Tornare nella corsia da dove lo abbiamo preso
+    - Riposizionare dove si trovava
+    - Ripetere se la condizione iniziale è ancora vera
+- ALTRIMENTI esci dal ciclo
 
 - Dirigersi verso le casse
 - Scegliere una cassa aperta AND con meno persone in fila possibile
 - Aspettare il proprio turno
 
-SE la cassa è libera
--   Prendere gli oggetti dal carrello e posizionarli sul nastro
-È stato preso tutto? Se sì allora uscire dal ciclo
+- SE la cassa è libera
+    - Prendere gli oggetti dal carrello e posizionarli sul nastro
+- SE è stato preso tutto: 
+- allora uscire dal ciclo
 
 - Aspettare il prioprio turno
-Hai una busta?
-Se SÌ:
-- Prendi e tieni in mano la busta
-SE NO:
+- SE Hai una busta?
+    - Prendi e tieni in mano la busta
+- ALTRIMENTI:
 - Chiedi al cassiere una busta
 - Prendi e tieni in mano la busta
 
 - Dire al cassiere di avere dei coupon
 - Prendere la busta
-DO
-    SE gli oggetti sono stati battuti in cassa:
-    ALLORA prendile e mettile nella busta
-SE hai già preso tutti gli oggetti, esci dal ciclo
+- DO
+    - SE gli oggetti sono stati battuti in cassa:
+    - ALLORA prendile e mettile nella busta
+- SE hai già preso tutti gli oggetti, esci dal ciclo
 
 - Prendere i coupon
 - Porgerli al cassiere
 - Aspettare il totale
-SE il totale è superiore ai contanti:
-- Pagare con carta la differenza
-ALTRIMENTI pagare in contanti
+- SE il totale è superiore ai contanti:
+    - Pagare con carta la differenza
+- ALTRIMENTI pagare in contanti
 - Ringraziare il cassiere
 - Uscire dal supermercato
 - Tornare a casa
