@@ -1,5 +1,6 @@
 # Problema A
 
+## Soluzione
 - Prendere una penna e un foglio
 - Appuntare cosa manca nel foglio, che da adesso verrà chiamato lista, e conservarselo
 - Prendere i coupun e conservarseli
@@ -8,17 +9,19 @@
 - dirigersi verso il supermercato
 - Prendere il carrello
 - entrare nella prima corsia
-DO
--       Entrare in una nuova corsia
-    DO
--       visualizzare i prodotti nello scaffale
-        SE quel prodotto è nella lista
--       Prendere il prodotto
--       Posizionare nel carrello
-        ALTRIMENTI
--       Vai avanti
-    SE hai già controllato lo scaffale della parte opposta esci dal ciclo
--   Controllare nuovamente la lista per evitare di dimenticarsi qualcosa
+- DO
+    - Entrare in una nuova corsia
+    - DO
+        - visualizzare i prodotti nello scaffale
+        - SE quel prodotto è nella lista
+            - Prendere il prodotto
+            - Posizionare nel carrello
+        - ALTRIMENTI
+            - Vai avanti
+    - SE hai già controllato lo scaffale della parte opposta:
+        - esci dal ciclo
+    - ALTRIMENTI controlla la parte opposta
+    - Controllare nuovamente la lista per evitare di dimenticarsi qualcosa
 
 SE le corsie sono finite AND tutti gli oggetti della lista sono stati presi e messi nel carrelo , uscire dal ciclo
 SE il totale dei prodotti è superiore ai contanti che possediamo AND non possiamo pagare con cart
