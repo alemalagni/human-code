@@ -8,9 +8,9 @@ Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita 
 - Liberare uno spazio accanto dove poter allocare i fogli gia scansionati
 - SE lo scanner non è collegato ad un computer:
     - Collegare lo scanner al computer
-- SE lo scanner AND il computer non sono accessi:
+- SE lo scanner OR il computer non sono accessi:
     - Accendere i dispositivi
-- SE i fogli da scansionare i fogli non sono finiti:
+- FINCHÈ i fogli da scansionare i fogli non sono finiti:
     - Prendere il foglio da scansionare più in alto sulla scrivania
     - Portare allo scanner
     - Alzare il coperchio dove si scannerizza
